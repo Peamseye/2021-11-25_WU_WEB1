@@ -2,51 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-      background-color: #2E2E2E;
-  }
-  
-  div.container {
-      width: 100%;
-  
-  
-  }
-  
-  header {
+}
+
+body {
+    background-color: #2E2E2E;
+}
+
+div.container {
+    width: 100%;
+}
+
+.container img {
+    height: 155px;
+    width: 300px;
+    padding: 5px;
+    object-fit: fill;
+    
+    max-width: 100%;
+}
+
+header {
     text-align: center;
     font-size: 40px;
     background-color: white;
-  
-  
-  }
-  
-  div.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  
-  a:link,
-  a:visited {
+}
+
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    
+    a:link,
+    a:visited {
     background-color: transparent;
     color: black;
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
-  a:hover,
-  a:active {
+}
+
+a:hover,
+a:active {
     cursor: pointer;
     opacity: 0.5;
     transition: 0.5s;
     background-color: transparent;
-  }
-  
-  nav {
+}
+
+nav {
     background-color: whitesmoke;
     padding: 0px;
   
@@ -54,27 +59,23 @@
     position: sticky;
     top: 0;
     z-index: 666;
-  
+    
     border: 2px solid snow;
-  }
-  
-  main {
+}
+
+main {
     display: flex;
     background-color: white;
     height: 25px;
-  }
+}
 
-  .container img {
-    height: 155px;
-    width: 300px;
-    padding: 5px;
-    object-fit: fill;
+article {
+
+    background-color: #424242;;
+}
+
   
-    max-width: 100%;
-   
-  }
-  
-  img:hover {
+img:hover {
     cursor: pointer;
     transition: 0.5s;
   }
